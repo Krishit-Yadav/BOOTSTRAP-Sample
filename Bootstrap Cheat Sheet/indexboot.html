@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <title>Bootstrap Cheat Sheet</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+    .navbar{
+      margin-bottom:0;
+      border-radius:0;
+    }
+    </style>
+    </head>
+  <body>
+
+    <br>
+    <!--NAVBAR-->
+
+          <nav class="navbar navbar-inverse">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Bootstrap CheatSheet</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li> <a href="#">Action</a> </li>
+                  <li> <a href="#">Another action</a> </li>
+                  <li> <a href="#">Something else here</a> </li>
+                  <li role="separator" class="divider"></li>
+                  <li> <a href="#">Separated link</a> </li>
+                  <li role="separator" class="divider"></li>
+                  <li> <a href="#">One more separated link</a> </li>
+                </ul>
+              </li>
+            </ul>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-->
+      </nav>
+
+
+      <!--JUMBOTRON-->
+
+      <div class="jumbotron text-center">
+        <div class="container">
+          <h1>Welcome To My Website</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+
+    <!-- Topography -->
+    <div class="container">
+
+    <h1 class="page-header">Hello, World! <small> Secondary Text</small></h1>
+    <p class="lead">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     </p>
+     <p>
+     <mark>Ut enim ad minim veniam,quis nostrud exercitation </mark> ullamco laboris
+     veniam,quis nostrud <u>exercitation ullamco laboris nisi ut aliquip</u> ex ea
+     commodo consequat.Duis aute irure dolor in reprehenderit in voluptate
+     velit esse <del>cillum dolore eu fugiat nulla pariatur</del>. Excepteur sint occaecat
+     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+     est laborum.
+     </p>
+
+     <hr>
+     <!-- Allignment & Transformation Classes -->
+
+    <p class="text-left text-lowercase">HELLO LEFT TEXT</p>
+    <p class="text-center text-capitalize">hello center text</p>
+    <p class="text-right">HELLO RIGHT TEXT</p>
+    <p class="text-justify">JUSTIFY YOURSELF TEXT</p>
+    <p class="text-nowrap text-uppercase">HEY LISTEN TO ME Don't DARE TO WRAP</p>
+    <br>
+    <br>
+
+    <hr>
+
+    <!-- Quick Floats -->
+    <div class="pull-right">Div Floated to Right</div>
+    <br>
+    <br>
+    <div class="pull-left">Div Floated to left</div>
+
+    <!-- Clear Fix-->
+
+    <div class="clearfix"></div>
+
+    <hr>
+
+    <!-- BlockQuote-->
+    <<blockquote class="blockquote-reverse">
+      <p>Sunt in culpa qui officia deserunt mollit anim id
+      est laborum.</p>
+      <footer>Quote by <cite title="Gaur Gopar Das">Gaur Gopar Das</cite></footer>
+    </blockquote>
+
+    <hr>
+
+    <!--LISTS-->
+    <ul class="list-unstyled">
+      <li>1st Item</li>
+      <li>2nd Item</li>
+      <li>3rd Item</li>
+      <li>4th Item</li>
+    </ul>
+
+    <hr>
+
+    <ul class="list-inline">
+      <li>1st Item</li>
+      <li>2nd Item</li>
+      <li>3rd Item</li>
+      <li>4th Item</li>
+    </ul>
+
+    <hr>
+
+    <!--CODE-->
+
+    <code> &lt;h1&gt;Heading Text&lt;/h1&gt; </code>
+    <br>
+    <br>
+    <br>
+    Change Directory with <kbd>cd</kbd>
+    <br>
+    <br>
+    To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+
+    <hr>
+
+    <!-- CONTEXTUAL COLORS -->
+
+    <p class="text-primary">Hey There Buddy</p>
+    <p class="text-success">Hey How You're Doing </p>
+    <p class="text-info">Hey Can I Give A Suggestion</p>
+    <p class="text-warning">Hey Really Very Sorry Dude</p>
+    <p class="text-danger">Hey You're Just Awsome</p>
+    <p class="text-muted">Hey You're Just Awsome</p>
+
+    <hr>
+    <!-- CONTEXTUAL BACKGROUND COLORS -->
+
+    <p class="bg-primary">Hey There Buddy</p>
+    <p class="bg-success">Hey How You're Doing </p>
+    <p class="bg-info">Hey Can I Give A Suggestion</p>
+    <p class="bg-warning">Hey Really Very Sorry Dude</p>
+    <p class="bg-danger">Hey You're Just Awsome</p>
+    <p class="bg-muted">Hey You're Just Awsome</p>
+
+    </div>
+    <hr>
+    <!--BUTTONS-->
+
+    <div class="container">
+
+      <button class="btn btn-default">BUTTON</button>
+      <a href="#" class="btn btn-default" role="button">LINK</a>
+      <input type="submit" class="btn btn-default" value="Submit">
+
+      <br>
+      <br>
+      <!-- CONTEXUAL BUTTONS -->
+        <button class="btn btn-default">Default</button>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-danger">Delete</button>
+        <button class="btn btn-link">LINK</button>
+
+        <br>
+        <br>
+
+        <!-- BUTTON SIZES -->
+        <button class="btn btn-default btn-lg">Default</button>
+        <button class="btn btn-primary btn-sm">Default</button>
+        <button class="btn btn-info btn-xs">Default</button>
+        <button class="btn btn-default" disabled="disabled">Default</button>
+    </div>
+
+    <hr>
+    <br>
+          <!--FORMS-->
+          <div class="container">
+          <form>
+             <div class="form-group">
+               <label>Name:</label>
+               <input type="text" class="form-control" placeholder="Add Your Name">
+             </div>
+
+             <div class="form-group">
+               <label>Emil:</label>
+               <input type="email" class="form-control" placeholder="Add Your Email">
+             </div>
+
+             <div class="form-group">
+               <label>Message:</label>
+               <textarea class="form-control" placeholder="">Add Your Message </textarea>
+               </div>
+
+              <div class="form-group">
+                  <label>Gender:</label>
+                  <select class="form-control">
+
+                     <option value="male">Male</option>
+                     <option value="female">Female</option>
+                     <option value="others">Others</option>
+
+                 </select>
+              </div>
+
+                <div class="form-group">
+                  <label>Upload File</label>
+                  <input type="file">
+                  <p class="help-block">Only .png & .jpg Allowed</p>
+                </div>
+
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Check Me Out
+                  </label>
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+
+          <hr>
+
+          <!-- INLINE FORM -->
+          <form class="form-inline">
+          <div class="form-group">
+            <label>Emil:</label>
+            <input type="email" class="form-control" placeholder="Add Your Email">
+          </div>
+          <div class="form-group">
+            <label>Message:</label>
+            <textarea class="form-control" placeholder="">Add Your Message </textarea>
+            </div>
+             <div class="checkbox">
+               <label>
+                 <input type="checkbox"> Remember Me
+               </label>
+             </div>
+             <button type="submit" class="btn btn-default">Login</button>
+           </form>
+          </div>
+
+          <hr>
+
+          <!--TABLES-->
+
+          <div class="container">
+            <table class="table table-striped table-bordered table-hover table-condensed">
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+              </tr>
+              <tr class="danger">
+                <td>Amit</td>
+                <td>Yadav</td>
+                <td>22</td>
+              </tr>
+              <tr class="success">
+                <td>Suraj</td>
+                <td>Kanojiya</td>
+                <td>16</td>
+              </tr>
+              <tr class="info">
+                <td>Ankit</td>
+                <td>Dwivedi</td>
+                <td>20</td>
+              </tr>
+              <tr class="warning">
+                <td>Arijit</td>
+                <td>Singh</td>
+                <td>35</td>
+              </tr>
+              <tr>
+                <td>Darshan</td>
+                <td>Rawal</td>
+                <td>28</td>
+              </tr>
+            </table>
+          </div>
+
+          <hr>
+          <!-- GROUP LISTING -->
+          <div class="container">
+            <ul class="list-group">
+              <li class="list-group-item">1st Item</li>
+              <li class="list-group-item">2nd Item</li>
+              <li class="list-group-item">3rd Item</li>
+              <li class="list-group-item">4th Item</li>
+            </ul>
+
+            <div class="list-group">
+              <a href="#" class="list-group-item active">1st Item</a>
+              <a href="#" class="list-group-item">2nd Item</a>
+              <a href="#" class="list-group-item list-group-item-success">3rd Item</a>
+              <a href="#" class="list-group-item disabled">4th Item</a>
+            </div>
+
+          </div>
+
+          <hr>
+
+          <div class="container">
+
+          <!-- PANELS -->
+
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Panel title</h3>
+              </div>
+              <div class="panel-body">Panel content</div>
+              <div class="panel-footer">Panel Footer</div>
+
+            </div>
+
+            <hr>
+
+            <!-- WELLS -->
+            <div class="well">Hello, World</div>
+            <div class="well well-lg">Hey There, World</div>
+            <div class="well well-sm">Ciao, World</div>
+            <div class="well well">Namaste, world</div>
+
+            <hr>
+
+            <!-- ALERTS -->
+            <div class="alert alert-success" role="alert">A Success Alert</div>
+            <div class="alert alert-info" role="alert">A Information Alert</div>
+            <div class="alert alert-warning" role="alert">A Warning Alert</div>
+            <div class="alert alert-danger" role="alert">A Danger Alert</div>
+
+            <div class="alert alert-warning alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert"> <span> &times; </span> </button>
+              You Can Close This Alert
+            </div>
+
+            <hr>
+            <!-- PROGRESS BARS -->
+
+            <div class="progress">
+              <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;">
+                50%
+              </div>
+            </div>
+
+            <hr>
+
+            <!--LABELS-->
+            <span class="label label-default">Default</span>
+            <h1>Hello <span class="label label-primary">Primary</span></h1>
+            <span class="label label-success">Success</span>
+            <span class="label label-info">Information</span>
+            <span class="label label-warning">Warning</span>
+            <span class="label label-danger">Danger</span>
+
+            <hr>
+
+            <!--BADGES-->
+
+            <<a href="#">Inbox <span class="badge"> 50 </span> </a>
+            <button class="btn btn-primary" type="button">
+            Messages <span class="badge"> 2 </span>
+            </button>
+
+          </div>
+
+          <hr>
+          <br>
+        <!-- IMAGES -->
+        <div class="container">
+          <img class="thumbnail" src="images/ROBOT.jpg"></img>
+          <br>
+          <img class="img-rounded" src="images/ROBOT.jpg"></img>
+          <br>
+          <br>
+          <img class="img-circle" src="images/ROBOT.jpg"></img>
+          <br>
+        </div>
+
+        <hr>
+        <br>
+
+        <!-- GRID SYSTEM-->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-8 col-xs-8">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+
+          <br>
+          <br>
+
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+          <div class="col-md-3 col-sm-3 col-xs-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+            <div class="col-md-3 col-sm-3col-xs-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+
+
+          <br>
+          <br>
+
+          <div class="row">
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 1</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 2</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 3</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 4</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 5</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 6</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 7</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 8</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 9</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 10</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 11</p>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+              <p>BOX 12</p>
+            </div>
+          </div>
+        </div>
+    <div style="height: 400px"></div>
+
+  </body>
+</html>
